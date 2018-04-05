@@ -1,0 +1,100 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.box {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction:column;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.stuff {
+height: auto;
+flex-grow: 2;
+flex-shrink: 1;
+}
+
+
+body {
+  background: url(https://i.imgur.com/hkNPXGn.jpg);
+  background-size: cover;
+  opacity: 0.90;
+  color: #333;
+  font-family: "Merriweather", serif;
+  font-size: 15px;
+  line-height: 1.5;
+  margin: 0;
+}
+
+h1 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 44px;
+  margin-top: 0;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-size: 22px;
+  margin-top: 0;
+}
+
+h3 {
+  font-size: 18px;
+}
+
+.container {
+  background: #fff;
+  margin: auto;
+  padding: 20px 40px;
+  width: 1250px;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.nav-bar{
+  background-color: transparent;
+  width: 100%;
+  top: 30px;
+  float: left;
+}
+
+#alignL{
+  font-size: 30px;
+  color: gold;
+  font-family: Bangers;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  border: 2px solid whitesmoke;
+  float: left;
+  background-color: black;
+}
+
+#alignR{
+  font-size: 30px;
+  color: gold;
+  font-family: Bangers;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  border: 2px solid whitesmoke;
+  float: right;
+  background-color: black;
+}
+
+
+article {
+  column-count: 3;
+  column-gap: 90px;
+  column-rule-style: dotted;
+}
